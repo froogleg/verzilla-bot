@@ -13,7 +13,7 @@ async def start(message: types.Message):
     kb = ReplyKeyboardMarkup(resize_keyboard=True)
 
     web_app = WebAppInfo(
-        url="https://твое-приложение.vercel.app"
+        url="https://verzilla-bot.vercel.app/"
     )
 
     btn = KeyboardButton(
