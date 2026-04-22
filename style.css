@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.balance {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #020617;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #1e293b;
+}
+
+.nav-item {
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-item.active {
+    color: white;
+}
